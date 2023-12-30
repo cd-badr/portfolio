@@ -9,6 +9,7 @@ body {
 
 .fa-bars , .fa-xmark , input, .check{
     display: none;
+    opacity: 0;
 }
 
 
@@ -202,6 +203,7 @@ footer>p>span {
         font-size: 40px;
         left: 0%;
         top: 0%;
+        opacity: 1;
     }
 
     .fa-bars {
@@ -211,6 +213,7 @@ footer>p>span {
         padding: 20px;
         font-size: 40px;
         right: 0;
+        opacity: 1;
     }
 
     nav {
