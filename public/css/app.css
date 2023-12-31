@@ -18,6 +18,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
@@ -208,7 +209,7 @@ footer>p>span {
 
     .fa-bars {
         display: block;
-        position: fixed;
+        position: absolute;
         color: white;
         padding: 20px;
         font-size: 40px;
@@ -264,6 +265,60 @@ footer>p>span {
 
     iframe {
         width: 400px;
+    }
+    .contact {
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .contact>.links>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .contact>.links>div>p {
+        font-size: 30px;
+    }
+}
+
+/* tablet ver */
+
+@media (max-width: 770px) {
+
+
+    .skils {
+        flex-wrap: wrap;
+    }
+
+    .skils>div {
+        width: 300px;
+    }
+
+
+    .about {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 400px;
+    }
+
+    .imgs {
+        flex-direction: column;
+    }
+
+
+    .projects>.imgs>div>img {
+        width: 600px;
+    }
+/* contact */
+
+    iframe {
+        width: 600px;
     }
     .contact {
         flex-direction: column;
